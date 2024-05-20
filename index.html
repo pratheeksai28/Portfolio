@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+<title>Pratheek's Portfolio</title>
+<link rel="icon" type="image/x-icon" href="/images/p.png">
+<link rel="stylesheet" href="style1.css">
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<header>
+    <h2 class="Portfolio">Portfolio <span class="slash">|</span> Home</h2>
+    <nav class="navigation">
+        <a href="/homepage.html" class="active" id="home">Home</a>
+        <a href="/about.html" class="active">About</a>
+        <a href="/services.html" class="active">Services</a>
+        <a href="/contact.html"  class="active">Portfolio</a>
+        <a href="/contact.html"  class="active">Contact</a>
+        
+    </nav>
+</header>  
+<body>
+    <img src="images/me.png" style="width: 1150px; padding-left:500px; padding-top: 115px;">
+    
+    <div id="intro">
+        <h3>Hello, 
+        <h2>I'm <span class="name">Pratheek Sai Ariankula</span></h2>
+        <h4>From Vishakapatnam, India</h4>
+        <div class=" container">
+            <span class="text first-text"><h5></h5>I'm a</span>
+            <span class="text sec-text"></span></h5>
+            <div class="cv">    
+            <br><a href="images/me.jpg" download class="btn">Download CV</a>  
+            <a href="images/me.jpg" class="btn">Hire me</a>
+            <!-- <br><br><button class="btn">Download cv</button> -->
+            </div>
+        </div>
+     <!-- -------------ABOUT-------------- -->
+  <div id="about">
+    <div class="container">
+       <div class="row">
+        <div class="about-col-1">
+            <img src="images/about.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I'm an ambitious undergraduate student with a true passion for full stack web development. I've excelled in creating efficient and user-friendly web applications and have a strong foundation in data structures to build robust and efficient solutions.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="experience">
+                <ul>
+                    <li><span>2023-current</span><br>UI/UX Design Training at ET Institute</li>
+                    <li><span>2019-2021</span><br>Team Lead for one of our own Projects.</li>
+                    <li><span>2017-1019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                    <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                </ul>
+            </div>
+        </div>
+       </div> 
+    </div>
+  </div> 
+  <!-- ----------services---------- -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- ----------------Portfolio--------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div><div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- ----------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>portfolio@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9876543210</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <span id="msg"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+    
+    <script>
+        const text =document.querySelector(".sec-text");
+
+        const textload= () => {
+            setTimeout(() => {
+                text.textContent="Computer Science Engineer"; 
+            },0);
+            setTimeout(() => {
+                text.textContent="Web Developer"; 
+            },3975);
+            setTimeout(() => {
+                text.textContent="Game Developer"; 
+            },8000);
+            setTimeout(() => {
+                text.textContent="Freelancer"; 
+            },12000);
+        }
+        textload()
+        setInterval(textload, 18000)
+    </script>
+</body>
